@@ -31,7 +31,7 @@ Transaction Validation Tools
 ./master_hash_check.sh - running the program will check the master hash for defined block-chain tree file.
 Usage: ./master_hash_check.sh YYYYMMDDHH
 
-./block_check.sh - running the program will validate the block-chain file for transaction sequence consistency and hash sequence consistency. The command can validate the block-chain for one hour or one day based on the input parameter format.
+./block_check.sh - running the program will validate the block-chain file for transaction sequence consistency and hash sequence consistency. The command can validate the block-chain for one hour, day, month or year based on the input parameter format.
 Usage: ./block_check.sh YYYYMMDDHH
 
 
