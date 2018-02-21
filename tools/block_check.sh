@@ -116,7 +116,7 @@ then
 	# ALL HOURS
 	for h in `ls -w1 "$TREE/tran_id/$DIR/" 2>/dev/null`
 	do
-		block_check "$TREE/tran_id/$DIR/$h/$DATE${h}.bc" $DATE${h}
+		block_check "$TREE/tran_id/$DIR$h/$DATE${h}.bc" $DATE${h}
 		STATUS=$?
 		print_status "$DATE${h}" $STATUS
 	done
@@ -128,7 +128,7 @@ then
 		# ALL HOURS
 		for h in `ls -w1 "$TREE/tran_id/$DIR/$d" 2>/dev/null`
 		do
-			block_check "$TREE/tran_id/$DIR/$d/$h/$DATE${d}${h}.bc" $DATE${d}${h}
+			block_check "$TREE/tran_id/$DIR$d/$h/$DATE${d}${h}.bc" $DATE${d}${h}
 			STATUS=$?
 			print_status "$DATE${d}${h}" $STATUS
 		done
@@ -144,7 +144,7 @@ then
 			# ALL HOURS
 			for h in `ls -w1 "$TREE/tran_id/$DIR/$m/$d" 2>/dev/null`
 			do
-				block_check "$TREE/tran_id/$DIR/$m/$d/$h/$DATE${m}${d}${h}.bc" $DATE${m}${d}${h}
+				block_check "$TREE/tran_id/$DIR$m/$d/$h/$DATE${m}${d}${h}.bc" $DATE${m}${d}${h}
 				STATUS=$?
 				print_status "$DATE${m}${d}${h}" $STATUS
 			done
