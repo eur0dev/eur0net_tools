@@ -4,11 +4,7 @@ E0 provides tools to allow easy block-chain validation, navigation, and viewing.
 
 All tools are in Linux shell script which makes them open-source, completely transparent for everybody.
 
-The shell script tools are distributed within compressed file called: e0.shell.tgz
-
-To use just download the file and run under any version of Linux: gzip -d e0.shell.tgz
-
-This will expand to several shell executable files. In addition, make sure that you have the expanded block-chain tree under the directory /usr/local/euro
+In addition, make sure that you have the expanded block-chain tree under the directory /usr/local/euro
 
 
 Account Balance Tools
